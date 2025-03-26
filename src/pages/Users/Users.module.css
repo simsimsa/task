@@ -1,0 +1,23 @@
+.users{
+    flex: 1;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:end;
+    overflow-x: hidden;
+}
+
+.usersHeader{
+    text-align: center;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 20px 0;
+    background: rgb(231, 226, 226);
+}
+
+.usersContent{
+    width: 100%;
+    overflow-x: hidden;
+}

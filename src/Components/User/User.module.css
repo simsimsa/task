@@ -1,0 +1,43 @@
+.user {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    padding: 20px 0 20px 85px;
+    background: #98c3d2;
+}
+
+.userInfo {
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+}
+
+.userInfoForm{
+    display: flex;
+    margin: 0;
+}
+
+.label{
+    min-width: 150px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.481);
+}
+
+.input{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.nameInput{
+    background: none;
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 10px;
+    border: #2f3c41 3px solid;
+}

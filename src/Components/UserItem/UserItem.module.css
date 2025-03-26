@@ -1,0 +1,13 @@
+.userItem{
+    display: flex;
+    width: 90%;
+    gap: 20px;
+    align-items: center;
+    justify-content: start;
+    margin-left: 30px;
+}
+
+.userItem:hover{
+    background: rgba(105, 105, 118, 0.129);
+    cursor: pointer;
+}
